@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the AutoComplete Text Box project! This application implements a sophisticated auto-complete feature by fetching and displaying data from the Rick and Morty API. The choice of the Rick and Morty API was deliberate, as it offers simplicity, is free to use, and provides a lightweight dataset, making it ideal for sample projects.
 
-## Available Scripts
+## API Source
+[Link to Rick and Morty API](https://rickandmortyapi.com/)
 
-In the project directory, you can run:
+## Running the Project
 
-### `npm start`
+To launch the project, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Install dependencies using the command:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    ```bash
+    npm install
+    ```
 
-### `npm test`
+2. Start the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+## Testing the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After successfully starting the project, open your browser and navigate to `localhost:3000`. You will encounter a user-friendly interface featuring a text input.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### AutoComplete Functionality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As you begin typing in the text input, the application dynamically generates search suggestions. Clicking on any suggestion will simulate navigation by refreshing the page.
 
-### `npm run eject`
+For optimal results, try searching using the following terms:
+- "Rick"
+- "Morty"
+- "Smith"
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The search bar is designed to be scrollable, ensuring a seamless user experience when dealing with an extensive list of suggestions.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Code Review
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+While crafting the codebase, certain elements may appear unused. However, these intentional additions contribute to enhanced component reusability and ease of integration into real-world projects.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Additionally, explanatory comments have been strategically placed throughout the code to provide clarity on specific implementation details. These comments aim to facilitate a smooth review process and foster a deeper understanding of the codebase.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to explore the codebase, and if you have any questions or suggestions, don't hesitate to reach out.
